@@ -7,6 +7,7 @@ It is a demo project for Chat Messaging System
 - Run composer install
 - Create a pusher app and grab the app key, secret, id, and cluster. (https://pusher.com/)
 - Put into the .env file. There are already variables are defined by laravel, you just need to put the values.
+- Generate Key from this command: php artisan key:generate
 - Migrate the database tables from this command: php artisan migrate
 - Start the development server: php artisan serve
 - That's it: launch the main URL or go to /register
